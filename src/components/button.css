@@ -7,10 +7,10 @@
     justify-content: center;
     align-items: center;
     font-size: 24px;
-    background-color: gray;
-    color: white;
+    background-color: rgba(19, 194, 233, 0.9);
+    color: black;
     flex: 1;
-    margin: 4px;
-    border-radius: 25px;
+    margin: 2px;
+    border-radius: 15px;
     
 }
