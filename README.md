@@ -20,21 +20,27 @@
   ## Name: 
 
   Sebastian Tischner
+  
   ## Installation 
 
   no installation needed! 
+  
   ## Contributors 
 
   Fork repository
+  
   ## Usage 
 
   access application by website, and use as a normal calculator 
+  
   ## Tests 
 
   no tests
+  
   ## License 
  
   This project is protected by the MIT license.
+  
   ## Questions 
 
   Github: [Sebascrab](https://github.com/Sebascrab) 
@@ -43,7 +49,7 @@
 
   ![Image of application](src/assets/images/React-Calc-Screenshot.png)
 
-  Deployed: ![Click Here to view](https://react-app-sb.herokuapp.com/)
+  Deployed: [Click Here to view](https://react-app-sb.herokuapp.com/)
 
   
 
