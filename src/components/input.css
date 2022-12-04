@@ -1,5 +1,22 @@
 
 
 .input-wrap {
+    height: 10em;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+    padding: 16px;
     
+}
+
+.results {
+    flex: 1;
+    font-size: 24px;
+
+}
+
+.text {
+    flex: 1;
+    font-size: 18;
 }

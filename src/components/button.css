@@ -10,5 +10,6 @@
     background-color: gray;
     color: white;
     flex: 1;
-    border-radius: 1px;
+    border: solid 0.5px;
+    border-color: black;
 }
