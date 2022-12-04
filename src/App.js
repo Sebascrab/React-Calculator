@@ -3,6 +3,8 @@ import './App.css';
 import { Button } from './components/button';
 import { Input } from './components/input'
 
+import * as math from 'mathjs';
+
 import { useState } from 'react';
 
 const App = () => {
@@ -18,6 +20,12 @@ const App = () => {
     setText("")
     setResult("")
   };
+
+  const calculateResult = () => {
+    const input = text.join("")
+
+    setResult(math.evaluate(input));
+  }
 
   const buttonColor = 'orange'
 
@@ -47,7 +55,7 @@ const App = () => {
         <div className='row'>
           <Button symbol="0" handleClick={addToText} />
           <Button symbol="." handleClick={addToText} />
-          <Button symbol="="  />
+          <Button symbol="=" handleClick={calculateResult} />
           <Button symbol="-" color={buttonColor} handleClick={addToText} />
         </div>
 
